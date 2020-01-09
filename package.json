@@ -1,0 +1,25 @@
+{
+  "name": "devshop",
+  "version": "1.0.0",
+  "description": "Projeto DevShop - DevPleno - Curso FullStack Master",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blogdomarcio/devshop.git"
+  },
+  "author": "@blogdomarcio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blogdomarcio/devshop/issues"
+  },
+  "homepage": "https://github.com/blogdomarcio/devshop#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "knex": "^0.20.7",
+    "mysql2": "^2.1.0"
+  }
+}
