@@ -11,13 +11,13 @@ const getCategorias =  db => async() => {
 
     const categorias = await db('categories').select('*')
    
-    const categoriasWitgSlug = categorias.map( categoria => {
+    const categoriasWithSlug = categorias.map( categoria => {
         const newCategoria = { ...categoria, slug: slug(categoria.category) }
         return newCategoria
        
     })
 
-    return categoriasWitgSlug
+    return categoriasWithSlug
 
 }
 
